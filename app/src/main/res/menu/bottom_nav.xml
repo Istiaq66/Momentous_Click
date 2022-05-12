@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/Booked"
+        android:icon="@drawable/booked"
+        android:title="Booked Orders" />
+    <item
+        android:id="@+id/Incomplete"
+        android:icon="@drawable/pending"
+        android:title="Incomplete Orders" />
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/Completed"
+        android:icon="@drawable/completed"
+        android:title="Completed Orders" />
+
+    <item
+        android:id="@+id/Clients"
+        android:icon="@drawable/clients"
+        android:title="Clients" />
+
+</menu>

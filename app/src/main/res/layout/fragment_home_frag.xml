@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dullwhite"
+    tools:context=".Fragments.Home_frag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/fade_red"
+                android:text="Home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@color/card_1"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/total1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Completed Orders"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/total1"
+                    android:layout_alignEnd="@+id/total1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:background="@color/card_2"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/total2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Incomplete Orders"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/total2"
+                    android:layout_alignStart="@+id/total2"
+                    android:layout_alignEnd="@+id/total2"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/accounts"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/expense"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/profit"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/team"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/stats"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/rectangle"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/supportcenter"></com.google.android.material.imageview.ShapeableImageView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

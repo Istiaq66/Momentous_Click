@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190851663355",
+    "project_id": "push-notification-8d60a",
+    "storage_bucket": "push-notification-8d60a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190851663355:android:a49c661a0895972a6c775e",
+        "android_client_info": {
+          "package_name": "com.istiaq66.momentous_click"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190851663355-7c00p26hostnurhcg04ed1ben021f37l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBtl-XYfyopjNvJUWjfVmqeOKbLkjYXoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190851663355-7c00p26hostnurhcg04ed1ben021f37l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
